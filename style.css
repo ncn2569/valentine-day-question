@@ -1,0 +1,92 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?valentine,heart') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background: pink;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: red;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#loveMessage {
+    font-size: 2em;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+body {
+    background: url('https://source.unsplash.com/1600x900/?valentine,heart') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background: pink;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: red;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#loveMessage {
+    font-size: 2em;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
