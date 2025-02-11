@@ -76,7 +76,6 @@ button:hover {
     from { text-shadow: 0 0 10px #ff1493; }
     to { text-shadow: 0 0 20px #ff69b4; }
 }
-
 .hidden {
     display: none;
 }
