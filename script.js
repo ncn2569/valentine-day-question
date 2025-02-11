@@ -1,5 +1,17 @@
 document.getElementById("showMessage").addEventListener("click", function () {
-    document.getElementById("loveMessage").classList.remove("hidden");
+    let message1 = document.getElementById("loveMessage");
+    let button = document.getElementById("showMessage");
+
+    if (message1.classList.contains("hidden")) {
+        message1.classList.remove("hidden");
+        button.textContent = "Click Here!";
+    } else {
+        let message2 = document.createElement("p");
+        message2.textContent = "Nếu đồng ý gửi :vvv";
+        message2.classList.add("loveMessage");
+        document.querySelector(".container").appendChild(message2);
+        button.disabled = true; // Vô hiệu hóa nút sau khi hiển thị thông điệp thứ hai
+    }
 });
 setInterval(() => {
     let rose = document.createElement("div");
