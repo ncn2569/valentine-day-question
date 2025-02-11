@@ -9,7 +9,7 @@ document.getElementById("showMessage").addEventListener("click", function () {
         let message2 = document.createElement("p");
         message2.textContent = "Nếu đồng ý gửi :v , Nếu không thì gửi :vvv và cảm ơn mày dã giành thời gian reply tin nhắn của tao cũng như xin lỗi đã làm phiền mày thời gian qua :))).";
         message2.classList.add("loveMessage");
-        message2.style.width = "80%"; // Đảm bảo chữ không bị cắt
+        //message2.style.width = "80%"; // Đảm bảo chữ không bị cắt
         document.querySelector(".container").appendChild(message2);
         button.disabled = true; // Vô hiệu hóa nút sau khi hiển thị thông điệp thứ hai
     }
