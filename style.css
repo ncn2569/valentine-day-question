@@ -79,3 +79,18 @@ button:hover {
 .hidden {
     display: none;
 }
+.loveMessage {
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 80%; /* Giúp chữ không bị cắt nếu quá dài */
+    max-width: 600px; /* Giới hạn chiều rộng để dễ đọc */
+    white-space: normal; /* Đảm bảo chữ tự xuống dòng */
+    line-height: 1.5; /* Tăng khoảng cách giữa các dòng */
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2); /* Tạo nền nhẹ giúp dễ đọc */
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
