@@ -4,7 +4,7 @@ document.getElementById("showMessage").addEventListener("click", function () {
 
     if (message1.classList.contains("hidden")) {
         message1.classList.remove("hidden");
-        button.textContent = "Click Here!";
+        button.textContent = "Click again!";
     } else {
         let message2 = document.createElement("p");
         message2.textContent = "Nếu đồng ý gửi :vvv";
