@@ -2,16 +2,16 @@ document.getElementById("showMessage").addEventListener("click", function () {
     document.getElementById("loveMessage").classList.remove("hidden");
 });
 setInterval(() => {
-    let heart = document.createElement("div");
-    heart.innerHTML = "💖";
-    heart.style.position = "fixed";
-    heart.style.left = Math.random() * window.innerWidth + "px";
-    heart.style.top = "-20px";
-    heart.style.fontSize = "2em";
-    heart.style.animation = "fall 3s linear";
-    document.body.appendChild(heart);
+    let rose = document.createElement("div");
+    rose.innerHTML = "🌹"; // Icon hoa hồng
+    rose.style.position = "fixed";
+    rose.style.left = Math.random() * window.innerWidth + "px";
+    rose.style.top = "-20px";
+    rose.style.fontSize = "2em";
+    rose.style.animation = "fall 4s linear";
+    document.body.appendChild(rose);
     
-    setTimeout(() => heart.remove(), 3000);
+    setTimeout(() => rose.remove(), 4000);
 }, 300);
 
 document.head.innerHTML += `
